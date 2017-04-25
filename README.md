@@ -20,9 +20,9 @@ Short Answer:
 
 **What do you mean that it is <b>Event-Driven</b>?
 ==============================================================================
-	Node JS sits on a <b>Single thread</b> and waits for events.As soon as Node runs the Server, it initiates all the <b>variables</b> and <b>functions</b> and then it simply it waits for events to occur.
-	After that(event happens) it triggers a <b>callback function</b> when one of those events gets detected.So when an event gets fired,its listener function starts executing.
-	That's why we have <b>EventEmitter class</b> that is used to bind events and add Event listeners.
+Node JS sits on a <b>Single thread</b> and waits for events.As soon as Node runs the Server, it initiates all the <b>variables</b> and <b>functions</b> and then it simply it waits for events to occur.
+After that(event happens) it triggers a <b>callback function</b> when one of those events gets detected.So when an event gets fired,its listener function starts executing.
+That's why we have <b>EventEmitter class</b> that is used to bind events and add Event listeners.
 
 **Simple Example
 ==============================================================================
