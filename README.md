@@ -67,9 +67,9 @@
 
 **So what are the types of Modules?
 ==============================================================================
-	<ul>
-		<li><b>Frameworks</b> - Express js</li>
-		<li><b>Template Engines</b> - Pug,EJS,HBS</li>
-		<li><b>Utilities</b> - Path, OS, API Modules, Compilers</li>
-		<li><b>Database ORM</b> - Mongoose, MongoJS</li>
-	</ul>
+<ul>
+	<li><b>Frameworks</b> - Express js</li>
+	<li><b>Template Engines</b> - Pug,EJS,HBS</li>
+	<li><b>Utilities</b> - Path, OS, API Modules, Compilers</li>
+	<li><b>Database ORM</b> - Mongoose, MongoJS</li>
+</ul>
