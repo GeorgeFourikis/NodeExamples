@@ -49,11 +49,14 @@ That's why we have <b>EventEmitter class</b> that is used to bind events and add
 **Platform Specifications
 ==============================================================================
 Available as/for:
-	-->Windows, Mac, Linux, Unix, SunOS ...more
-	-->Comes as a binary installable
-	-->Available on both 32-bit and 64-bit architectures
-	-->Windows use a simple MSI installer
-	--><b>REPL</b> client. Read, Eval, Print, Loop.(Basically a terminal that allowes us to run JS.)
+<ul>
+	<li>-->Windows, Mac, Linux, Unix, SunOS ...more</li>
+	<li>-->Comes as a binary installable</li>
+	<li>-->Available on both 32-bit and 64-bit architectures</li>
+	<li>-->Windows use a simple MSI installer</li>
+	<li>--><b>REPL</b> client. Read, Eval, Print, Loop.(Basically a terminal that allowes us to run JS.)</li>
+</ul>
+
 ==============================================================================
 **So what is that NPM  you are talking about all that time?
 ==============================================================================
