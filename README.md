@@ -17,7 +17,7 @@ Short Answer:
 		--> Optimizes throughput and scalability in Web Apps with many I/O operations.
 		--> Event-Driven Programming.
 		==>Those make Node JS apps extremely <b>fast</b> and <b>efficient</b>
-
+==============================================================================
 **What do you mean that it is <b>Event-Driven</b>?
 ==============================================================================
 
@@ -45,7 +45,7 @@ That's why we have <b>EventEmitter class</b> that is used to bind events and add
 	});
 	console.log("Program is now ended!");
 </code>
-
+==============================================================================
 **Platform Specifications
 ==============================================================================
 Available as/for:
@@ -54,7 +54,7 @@ Available as/for:
 	-->Available on both 32-bit and 64-bit architectures
 	-->Windows use a simple MSI installer
 	--><b>REPL</b> client. Read, Eval, Print, Loop.(Basically a terminal that allowes us to run JS.)
-
+==============================================================================
 **So what is that NPM  you are talking about all that time?
 ==============================================================================
 <b>Node Package Manager</b>
@@ -68,7 +68,7 @@ if you want to install a module, it would look like that:
 
 After we install it on the node_modules and the depedencies we need to include it to our project.It look like this now.
 	<code>var express = require('express');</code>
-
+==============================================================================
 **So what are the types of Modules?
 ==============================================================================
 <ul>
