@@ -25,45 +25,45 @@
 
 **Simple Example
 ==============================================================================
-	<code>
-		//i bring the File System module
-		var fs = require("fs");
+<code>
+	//i bring the File System module
+	var fs = require("fs");
 
-		//After we save File system to a variable, we take that object and we
-		//call the <i>readFile</i> function.This, takes in the name of the file 
-		//and then a <i>callback</i> function.
-		fs.readFile('input.txt', function(error, data){
-			if(err){
-				console.log(err.stack);
-				return;
-			}
-			console.log(data.toString());
-		});
-		console.log("Program is now ended!");
-	</code>
+	//After we save File system to a variable, we take that object and we
+	//call the <i>readFile</i> function.This, takes in the name of the file 
+	//and then a <i>callback</i> function.
+	fs.readFile('input.txt', function(error, data){
+		if(err){
+			console.log(err.stack);
+			return;
+		}
+		console.log(data.toString());
+	});
+	console.log("Program is now ended!");
+</code>
 
 **Platform Specifications
 ==============================================================================
-	Available as/for:
-		-->Windows, Mac, Linux, Unix, SunOS ...more
-		-->Comes as a binary installable
-		-->Available on both 32-bit and 64-bit architectures
-		-->Windows use a simple MSI installer
-		--><b>REPL</b> client. Read, Eval, Print, Loop.(Basically a terminal that allowes us to run JS.)
+Available as/for:
+	-->Windows, Mac, Linux, Unix, SunOS ...more
+	-->Comes as a binary installable
+	-->Available on both 32-bit and 64-bit architectures
+	-->Windows use a simple MSI installer
+	--><b>REPL</b> client. Read, Eval, Print, Loop.(Basically a terminal that allowes us to run JS.)
 
 **So what is that NPM  you are talking about all that time?
 ==============================================================================
-	<b>Node Package Manager</b>
-		-->Think of it as Online Repositories for node.js (packages/modules)
-		-->Installs into a folder named <b>node_modules</b>
+<b>Node Package Manager</b>
+	-->Think of it as Online Repositories for node.js (packages/modules)
+	-->Installs into a folder named <b>node_modules</b>
 
-		if you want to install a module, it would look like that:
-			<code>npm install express</code> or
-			<code>npm install ejs --save </code>(for saving in the depedencies) or
-			<code>npm install nodemon -g </code>(where -g means <i>global</i> and its installed globally)
+if you want to install a module, it would look like that:
+	<code>npm install express</code> or
+	<code>npm install ejs --save </code>(for saving in the depedencies) or
+	<code>npm install nodemon -g </code>(where -g means <i>global</i> and its installed globally)
 
-		After we install it on the node_modules and the depedencies we need to include it to our project.It look like this now.
-			<code>var express = require('express');</code>
+After we install it on the node_modules and the depedencies we need to include it to our project.It look like this now.
+	<code>var express = require('express');</code>
 
 **So what are the types of Modules?
 ==============================================================================
