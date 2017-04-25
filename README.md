@@ -1,11 +1,11 @@
 **So let's recap,What is Node JS?
 ==============================================================================
-	Long Answer: 
-		Node js is a platform built on Chrome'sJavaScript runtime.It is used to build
-		fast, scalable network applications.It uses an <i>event-driven</i>, <i>non-blocking    I/O</i> model that makes it lightweight and efficient, that is why it's perfect for building real-time applications
+Long Answer: 
+	Node js is a platform built on Chrome'sJavaScript runtime.It is used to build
+	fast, scalable network applications.It uses an <i>event-driven</i>, <i>non-blocking    I/O</i> model that makes it lightweight and efficient, that is why it's perfect for building real-time applications
 
-	Short Answer:
-		JavaScript on the Server or JavaScript on the Backend.
+Short Answer:
+	JavaScript on the Server or JavaScript on the Backend.
 ==============================================================================
 
 **So what is that that makes Node JS that great for us?
